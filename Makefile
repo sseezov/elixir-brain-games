@@ -6,3 +6,6 @@ brain-games:
 
 lint:
 	mix credo
+
+run:
+	mix run -e "Engine.start()"
