@@ -1,9 +1,10 @@
 defmodule Engine do
 
-  def start (game) do
+  def start(game, rules) do
     IO.puts("Welcome to the Brain Games!")
     username = IO.gets("May I have your name? ") |> String.trim()
     IO.puts("Hello, #{username}!")
+    IO.puts(rules)
 
     game_loop(game, username, 1)
   end
