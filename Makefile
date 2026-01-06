@@ -6,3 +6,6 @@ lint:
 
 brain-even:
 	mix run -e "GameEven.start()"
+
+brain-calc:
+	mix run -e "GameCalc.start()"

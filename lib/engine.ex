@@ -14,9 +14,9 @@ defmodule Engine do
   end
 
   defp game_loop(game, username, round) do
-    [number, correct_answer] = game.()
+    [question, correct_answer] = game.()
 
-    IO.puts("Question: #{number}")
+    IO.puts("Question: #{question}")
     user_answer = IO.gets("Your answer: ") |> String.trim()
 
     if user_answer == correct_answer do
