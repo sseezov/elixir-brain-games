@@ -12,3 +12,6 @@ brain-calc:
 
 brain-gcd:
 	mix run -e "GameGCD.start()"
+
+brain-progression:
+	mix run -e "GameProgression.start()"

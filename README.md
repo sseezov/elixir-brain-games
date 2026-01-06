@@ -1,21 +1,11 @@
-# ElixirBrainGames
+## To play games run:
 
-**TODO: Add description**
+```bash
+make brain-even # guess even or odd
 
-## Installation
+make brain-calc # guess the answer of math equation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_brain_games` to your list of dependencies in `mix.exs`:
+make brain-gcd # guess the greatest common divisor
 
-```elixir
-def deps do
-  [
-    {:elixir_brain_games, "~> 0.1.0"}
-  ]
-end
+make brain-progression # guess what number is missing from progression
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/elixir_brain_games>.
-
