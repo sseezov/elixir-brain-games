@@ -9,3 +9,6 @@ brain-even:
 
 brain-calc:
 	mix run -e "GameCalc.start()"
+
+brain-gcd:
+	mix run -e "GameGCD.start()"
